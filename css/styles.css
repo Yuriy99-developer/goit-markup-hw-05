@@ -681,7 +681,8 @@ button {
     line-height: 1.21;
     letter-spacing: 0.04em;
     font-size: 12px;
-    display: block;
+    display: flex;
+    align-items: center;
 }
 
 .input-wrap {
@@ -785,6 +786,7 @@ button {
 
 .modal-privacy-link {
     color: #4d5ae5;
+    margin-left: 3px;
 }
 
 .button-send-modal {
