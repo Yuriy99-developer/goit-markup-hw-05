@@ -24,10 +24,6 @@ p {
     margin: 0;
 }
 
-a {
-    display: block;
-}
-
 a,
 li {
     text-decoration: none;
@@ -681,8 +677,7 @@ button {
     line-height: 1.21;
     letter-spacing: 0.04em;
     font-size: 12px;
-    display: flex;
-    align-items: center;
+    display: block;
 }
 
 .input-wrap {
@@ -786,7 +781,6 @@ button {
 
 .modal-privacy-link {
     color: #4d5ae5;
-    margin-left: 3px;
 }
 
 .button-send-modal {
